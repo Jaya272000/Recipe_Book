@@ -1,0 +1,59 @@
+.header {
+    height: 400px;
+    width: 99.6vw;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/013/224/085/small/recipe-book-on-wooden-table-background-banner-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+
+  }
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0  ;
+}
+.Recipe{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+}
+.Recipe h1,
+.Recipe p {
+    margin:0;
+    padding: 0; 
+}
+
+
+.spoon{
+    color: white;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .header {
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .Recipe {
+        margin: 60px; /* Center text for smaller screens */
+    }
+
+  
+}
+
+@media (max-width: 480px) {
+    .Recipe {
+        margin: 30px;
+    }
+
+   
+}
